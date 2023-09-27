@@ -164,3 +164,133 @@ h1 {
   line-height: 150%;
 }
 /*welcom-section end */
+
+/* section-description start*/
+.section-description {
+  height: 890px;
+}
+.description__h{
+  margin-top: 50px;
+font-family: Playfair Display;
+font-size: 48px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.description__flex {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.description__p{
+  width: 398px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 150%;
+}
+.description__img {
+  position: relative;
+  z-index: 2;
+}
+.description__img-border{
+  position: absolute;
+  top: 1070px;
+  right: 180px;
+  width: 550px;
+height: 521px;
+background-color:#F07F18;
+}
+/* section-description start*/
+
+/* section__pros start*/
+.section__pros {
+  height: 550px;
+}
+.pros-h {
+font-family: Playfair Display;
+font-size: 36px;
+font-weight: 700;
+line-height: 150%;
+margin-bottom: 60px;
+}
+.block__pros-flex {
+  width: 1216px;
+  height: 324px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block__pros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  margin-top: -20px;
+}
+h3{
+  width: 292px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 150%;
+}
+.flex-text__p {
+  width: 242px;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+}
+/* section__pros end*/
+
+/* section start*/
+.section{
+  height: 700px;
+}
+.section-span {
+  left: 180px;
+  top: 2445px;
+}
+
+/*section__work start*/
+.section__work {
+  height: 400px;
+}
+.work-h {
+  margin-bottom: 60px;
+}
+.work-block-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.logo-small {
+  margin-bottom: 20px;
+}
+.text-flex-p {
+  margin-top: 20px;
+  width: 218px;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+margin-bottom: 30px;
+}
+span{
+text-align: center;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Playfair Display;
+font-size: 36px;
+font-weight: 700;
+line-height: 150%;
+}
+span-m{
+  margin-top: 30px;
+}
+
+/*section__work end*/
